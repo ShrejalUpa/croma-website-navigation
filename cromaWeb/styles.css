@@ -1,0 +1,121 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+
+.navigation {
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #020e4b;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.navigation1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    margin: 0px 50p;
+    background-color: #f8f8fb;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icon img {
+    width: 100px;
+    height: auto;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.icon1 img {
+    width: 50px;
+    height: auto;
+    border-radius: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.icon span {
+    border: 2px solid #333;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.nav-item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+    position: relative;
+}
+
+.search-bar input {
+    width: 300px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-icon {
+    background-color: darkorange;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    fill: rgb(28, 28, 26);
+}
+
+.course-menu {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 1px solid white;
+}
+
+.course-menu img {
+    width: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.separator {
+    height: 30px;
+    border-left: 1px solid #000;
+    margin: 0 10px;
+}
+
+.position {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+
+
+ 
